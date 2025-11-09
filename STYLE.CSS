@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f7fb;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(135deg, #0066ff, #00cc99);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+header p {
+  font-size: 16px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.input-section, .results-section {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #0066ff;
+  border-left: 5px solid #00cc99;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  padding: 12px;
+  width: 60%;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #0066ff, #00cc99);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #004fd1, #00a67f);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background: #0066ff;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background: #f3f6ff;
+}
+
+.chart-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
